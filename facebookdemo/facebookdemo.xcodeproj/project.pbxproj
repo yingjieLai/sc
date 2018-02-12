@@ -54,6 +54,9 @@
 		2CB79D3420318350008C953F /* facebookdemo */ = {
 			isa = PBXGroup;
 			children = (
+				2CB79D4920318543008C953F /* LogicModule */,
+				2CB79D4820318534008C953F /* DataModule */,
+				2CB79D4720318529008C953F /* UI */,
 				2CB79D3520318350008C953F /* AppDelegate.swift */,
 				2CB79D3720318350008C953F /* ViewController.swift */,
 				2CB79D3920318350008C953F /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				2CB79D4120318350008C953F /* Info.plist */,
 			);
 			path = facebookdemo;
+			sourceTree = "<group>";
+		};
+		2CB79D4720318529008C953F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CB79D4820318534008C953F /* DataModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModule;
+			sourceTree = "<group>";
+		};
+		2CB79D4920318543008C953F /* LogicModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogicModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
