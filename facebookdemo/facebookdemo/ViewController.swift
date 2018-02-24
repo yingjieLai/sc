@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FacebookLogin
+
 
 class ViewController: UIViewController {
 
@@ -24,7 +26,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func viewDidLoad() {
+        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+        loginButton.center = view.center
+        
+        view.addSubview(loginButton)
+    }
 
 }
 
